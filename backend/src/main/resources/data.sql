@@ -1,3 +1,6 @@
+DELETE
+FROM tasks;
+
 INSERT INTO tasks (title, description, completed)
 VALUES ('Complete project report', 'Finish the final report for the project and submit it to the manager.', false);
 
